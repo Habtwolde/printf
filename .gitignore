@@ -6,3 +6,5 @@
 
 # Ignore main file
 *main.c
+#ignore .vscode
+.vscode:
