@@ -4,7 +4,7 @@
  * @arguments: input number
  * @buf: buffer pointer
  * @ibuf: index for buffer pointer
- * Return: number of chars printed.
+ * Return: printed the number of chars.
  */
 int prinhoct(va_list arguments, char *buf, unsigned int ibuf)
 {
