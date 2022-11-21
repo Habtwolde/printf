@@ -6,8 +6,8 @@
 #include <stdlib.h>
 
 /**
- * struct print - struct for printer functions
- * @type_arg: identifier
+ * struct print - struct for print functions
+ * @type_arg: Arrguments
  * @f: pointer to a printer functions
  *
  * Description: struct that stores pointers to a
