@@ -35,9 +35,9 @@ int (*get_print_func(const char *s, int index))(va_list, char *, unsigned int)
 		{"+ i", prinpint}, {"+ d", prinpint},
 		{" %", print_prg}, {NULL, NULL},
 	};
-	int i = 0, j = 0, first_index;
+	int i = 0, j = 0, pre_index;
 
-	first_index = index;
+	pre_index = index;
 	while (pr[i].type_arg)
 	{
 		if (s[index] == pr[i].type_arg[j])
@@ -51,7 +51,7 @@ int (*get_print_func(const char *s, int index))(va_list, char *, unsigned int)
 		{
 			j = 0;
 			i++;
-			index = first_index;
+			index = pre_index;
 		}
 	}
 	return (pr[i].f);
