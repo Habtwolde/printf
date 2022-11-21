@@ -60,7 +60,7 @@ Pointer To A Function That Selects The Correct Function To Perform The Operation
 ------------
 
 ### print_buf.c
-Function That Prints The Buffer.
+Function That writes the Buffer.
 
 ------------
 
