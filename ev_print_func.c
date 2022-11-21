@@ -25,7 +25,7 @@ int ev_print_func(const char *s, int index)
 		{"r", print_rev}, {"%", print_prg}, {"l", print_prg},
 		{"h", print_prg}, {" +i", prinpint}, {" +d", prinpint},
 		{"+ i", prinpint}, {"+ d", prinpint}, {" %", print_prg},
-		{NULL, NULL},
+		{"/0", NULL}, {NULL, NULL},
 	};
 	int i = 0, j = 0, pre_index;
 

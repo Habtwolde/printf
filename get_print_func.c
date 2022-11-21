@@ -33,7 +33,7 @@ int (*get_print_func(const char *s, int index))(va_list, char *, unsigned int)
 		{"l", print_prg}, {"h", print_prg},
 		{" +i", prinpint}, {" +d", prinpint},
 		{"+ i", prinpint}, {"+ d", prinpint},
-		{" %", print_prg}, {"\0", NULL},
+		{" %", print_prg}, {"/0", NULL},
 		{NULL, NULL},
 	};
 	int i = 0, j = 0, pre_index;
